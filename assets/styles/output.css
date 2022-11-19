@@ -695,6 +695,14 @@ select {
   margin-top: 5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -747,10 +755,6 @@ select {
   border-radius: 9999px;
 }
 
-.border {
-  border-width: 1px;
-}
-
 .border-border-input {
   --tw-border-opacity: 1;
   border-color: rgb(232 232 232 / var(--tw-border-opacity));
@@ -776,14 +780,48 @@ select {
   padding-right: 1.75rem;
 }
 
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pt-14 {
+  padding-top: 3.5rem;
 }
 
 .font-lato {
@@ -828,22 +866,84 @@ select {
   background-color: rgb(48 55 69 / var(--tw-bg-opacity));
 }
 
-.hover\:decoration-solid:hover {
-  text-decoration-style: solid;
+@media (min-width: 640px) {
+  .sm\:px-24 {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
 }
 
-.hover\:decoration-8:hover {
-  text-decoration-thickness: 8px;
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .lg\:w-\[200px\] {
+    width: 200px;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
+  .lg\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+
+  .lg\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
-.hover\:decoration-2:hover {
-  text-decoration-thickness: 2px;
-}
+@media (min-width: 1280px) {
+  .xl\:flex {
+    display: flex;
+  }
 
-.hover\:decoration-4:hover {
-  text-decoration-thickness: 4px;
-}
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
 
-.hover\:opacity-80:hover {
-  opacity: 0.8;
+  .xl\:w-\[400px\] {
+    width: 400px;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
+  .xl\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .xl\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .xl\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .xl\:px-40 {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
 }
