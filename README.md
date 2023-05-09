@@ -22,4 +22,4 @@ Esta página de login é o projeto do Desafio 04 da Comunidade Codelândia, cria
 &nbsp;
 
 ## 🚀 Deploy
-[Clique aqui](https://nathalya-ricci.github.io/codelandia-desafio-04/) para ver o resultado!
+[Clique aqui](https://lyaricci.github.io/codelandia-desafio-04/) para ver o resultado!
